@@ -32,7 +32,6 @@
     e_01_l2: { sk: "Spoločná plavba v krásnom prostredí Chorvátska", en: "Sailing together in the beautiful setting of Croatia" },
     e_01_l3: { sk: "Vyhodnotenie regaty a odovzdávanie trofejí", en: "Regatta results ceremony and trophies" },
     e_01_l4: { sk: "Priestor na networking a neformálne rozhovory", en: "Space for networking and informal conversations" },
-    e_01_l5: { sk: "Možnosť označenia lodí firemnými logami", en: "Option to brand the boats with company logos" },
     e_01_l6: { sk: "Zážitok, ktorý prirodzene posilňuje vzťahy s klientmi aj partnermi", en: "An experience that naturally strengthens relationships with clients and partners" },
     e_tb_t: { sk: "Teambuilding, ktorý stmelí tím na celý rok", en: "Teambuilding that bonds the team for the whole year" },
     e_tb_p1: { sk: "Na mori sa tímová spolupráca nedá hrať. Posádka musí komunikovať, reagovať, pomáhať si a spoločne smerovať k cieľu. Práve preto je regata jedným z najsilnejších teambuildingových zážitkov.", en: "At sea, teamwork cannot be faked. A crew must communicate, react, help each other and head for the goal together. That is why a regatta is one of the most powerful teambuilding experiences." },
