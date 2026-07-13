@@ -44,7 +44,7 @@
     ev_card3_b: { sk: 'Odmeňte partnerov a klientov nezabudnuteľným týždňom v zátokách Jadranu so spoločnými večerami.', en: 'Reward partners and clients with an unforgettable week in Adriatic bays with shared dinners.' },
     past_eyebrow: { sk: '20 odplavených ročníkov', en: '20 editions sailed' },
     past_title: { sk: 'Zážitky na spoločnej vlne', en: 'Experiences on a shared wave' },
-    past_body: { sk: 'Od IT Regaty Open cez Trend Regatu až po Gentleman Sailing. Každý ročník vlastný príbeh, prístav a posádky.', en: 'From IT Regata Open through Trend Regata to Gentleman Sailing. Every edition its own story, port and crews.' },
+    past_body: { sk: 'Každý ročník vlastný príbeh, prístav a posádky.', en: 'Every edition its own story, port and crews.' },
     past_yt: { sk: 'Sledujte naše a vaše zážitky', en: 'Watch our shared experiences' },
     gallery_eyebrow: { sk: '#gentlemansailing', en: '#gentlemansailing' },
     gallery_title: { sk: 'Galéria', en: 'Gallery' },
