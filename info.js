@@ -21,7 +21,7 @@
     i_cta_title: { sk: 'Máte ďalšie otázky?', en: 'Any more questions?' },
     i_cta_text: { sk: 'Radi vám poradíme s prípravou aj dopravou. Ozvite sa nám alebo rovno prihláste svoju posádku.', en: 'We’re happy to help with preparation and travel. Get in touch or register your crew right away.' },
 
-    foot_tagline: { sk: 'Regata s noblesou a 19-ročnou tradíciou. Organizuje NautiTech, s.r.o.', en: 'A regatta of nobility with a 19-year tradition. Organised by NautiTech, s.r.o.' },
+    foot_tagline: { sk: 'Regata s noblesou a 20-ročnou tradíciou. Organizuje NautiTech, s.r.o.', en: 'A regatta of nobility with a 20-year tradition. Organised by NautiTech, s.r.o.' },
     foot_email_label: { sk: 'E-mail', en: 'E-mail' },
     foot_phone_label: { sk: 'Telefón', en: 'Phone' },
     foot_social_label: { sk: 'Sledujte nás', en: 'Follow us' },

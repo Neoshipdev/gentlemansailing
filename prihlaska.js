@@ -14,9 +14,9 @@
     ev_gallery: { sk: 'Galéria', en: 'Gallery' },
     ev_partners: { sk: 'Partneri', en: 'Partners' },
 
-    form_eyebrow: { sk: 'Prihláška · 20. ročník', en: 'Registration · 20th edition' },
+    form_eyebrow: { sk: 'Prihláška · 21. ročník', en: 'Registration · 21st edition' },
     form_title: { sk: 'Prihláste svoju posádku', en: 'Register your crew' },
-    form_lead: { sk: 'Vyplňte prihlášku na jubilejný 20. ročník Gentleman Sailing — 18.—21. mája 2026, Národný park Kornati. Po odoslaní vás budeme kontaktovať s ďalšími pokynmi a platobnými údajmi.', en: 'Fill in the registration for the 20th jubilee edition of Gentleman Sailing — 18–21 May 2026, Kornati National Park. After submission we will contact you with further instructions and payment details.' },
+    form_lead: { sk: 'Vyplňte prihlášku na 21. ročník Gentleman Sailing — máj 2027, Národný park Kornati. Po odoslaní vás budeme kontaktovať s ďalšími pokynmi a platobnými údajmi.', en: 'Fill in the registration for the 21st edition of Gentleman Sailing — May 2027, Kornati National Park. After submission we will contact you with further instructions and payment details.' },
 
     fs_fee: { sk: 'Účastnícky poplatok', en: 'Participation fee' },
     opt_boat: { sk: 'Celá loď', en: 'Whole boat' },
@@ -42,14 +42,14 @@
     l_char: { sk: 'Charakteristika posádky', en: 'Crew profile' },
     ph_char: { sk: 'Napr. skúsenosti s plavbou na plachetnici…', en: 'E.g. sailing experience…' },
 
-    c_week: { sk: 'Chcem loď na celý týždeň 16.—23. 05. 2026', en: 'I want the boat for the whole week 16–23 May 2026' },
+    c_week: { sk: 'Chcem loď na celý týždeň (termín upresníme)', en: 'I want the boat for the whole week (dates to be confirmed)' },
     c_gdpr: { sk: 'Súhlasím so spracovaním osobných údajov na účel vybavenia prihlášky. <a href="index.html">Viac informácií</a> <span class="req">*</span>', en: 'I consent to the processing of personal data for the purpose of handling the registration. <a href="index.html">More info</a> <span class="req">*</span>' },
 
     submit: { sk: 'Odoslať', en: 'Submit' },
-    form_note: { sk: 'Po odoslaní vás budeme kontaktovať e-mailom. Platby je potrebné uhradiť najneskôr do 31. 1. 2026.', en: 'After submission we will contact you by e-mail. Payments must be settled no later than 31 January 2026.' },
+    form_note: { sk: 'Po odoslaní vás budeme kontaktovať e-mailom. Platby je potrebné uhradiť najneskôr do 31. 1. 2027.', en: 'After submission we will contact you by e-mail. Payments must be settled no later than 31 January 2027.' },
     success: { sk: 'Ďakujeme! Vaša prihláška bola odoslaná. Čoskoro sa vám ozveme.', en: 'Thank you! Your registration has been sent. We will be in touch shortly.' },
 
-    foot_tagline: { sk: 'Regata s noblesou a 19-ročnou tradíciou. Organizuje NautiTech, s.r.o.', en: 'A regatta of nobility with a 19-year tradition. Organised by NautiTech, s.r.o.' },
+    foot_tagline: { sk: 'Regata s noblesou a 20-ročnou tradíciou. Organizuje NautiTech, s.r.o.', en: 'A regatta of nobility with a 20-year tradition. Organised by NautiTech, s.r.o.' },
     foot_email_label: { sk: 'E-mail', en: 'E-mail' },
     foot_phone_label: { sk: 'Telefón', en: 'Phone' },
     foot_social_label: { sk: 'Sledujte nás', en: 'Follow us' },
@@ -194,17 +194,17 @@
       ['Požiadavky na skippera', 'Skipper'],
       ['Doplnková výbava', 'Doplnková výbava'],
       ['Charakteristika posádky', 'Charakteristika posádky'],
-      ['Loď na celý týždeň (16.—23.05.2026)', 'Loď na celý týždeň'],
+      ['Loď na celý týždeň', 'Loď na celý týždeň'],
       ['Súhlas GDPR', 'GDPR']
     ];
     var data = new FormData(form);
-    var lines = ['NOVÁ PRIHLÁŠKA — GENTLEMAN SAILING 2026', ''];
+    var lines = ['NOVÁ PRIHLÁŠKA — GENTLEMAN SAILING 2027', ''];
     order.forEach(function (pair) {
       var v = (data.get(pair[1]) || '').toString().trim();
       lines.push(pair[0] + ': ' + (v || '—'));
     });
     var who = (data.get('Názov / Meno') || '').toString().trim();
-    var subject = 'Nová prihláška — Gentleman Sailing 2026' + (who ? ' · ' + who : '');
+    var subject = 'Nová prihláška — Gentleman Sailing 2027' + (who ? ' · ' + who : '');
     return 'mailto:info@nautitech.sk?subject=' + encodeURIComponent(subject) +
            '&body=' + encodeURIComponent(lines.join('\n'));
   }

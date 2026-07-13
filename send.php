@@ -12,7 +12,7 @@ header('Content-Type: application/json; charset=utf-8');
 // ---- Nastavenia ----
 $RECIPIENT = 'info@nautitech.sk';
 $FROM      = 'info@nautitech.sk';          // odosielateľ musí byť na doméne webu (anti-spam)
-$SUBJECT_PREFIX = 'Nová prihláška — Gentleman Sailing 2026';
+$SUBJECT_PREFIX = 'Nová prihláška — Gentleman Sailing 2027';
 
 // ---- Len POST ----
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
@@ -71,13 +71,13 @@ $fields = [
     'Požiadavky na skippera' => 'Skipper',
     'Doplnková výbava'     => 'Doplnková výbava',
     'Charakteristika posádky' => 'Charakteristika posádky',
-    'Loď na celý týždeň (16.—23.05.2026)' => 'Loď na celý týždeň',
+    'Loď na celý týždeň' => 'Loď na celý týždeň',
     'Súhlas GDPR'          => 'GDPR',
 ];
 
 // ---- Zostavenie tela e-mailu ----
 $lines = [];
-$lines[] = 'NOVÁ PRIHLÁŠKA — GENTLEMAN SAILING 2026';
+$lines[] = 'NOVÁ PRIHLÁŠKA — GENTLEMAN SAILING 2027';
 $lines[] = str_repeat('=', 44);
 $lines[] = '';
 foreach ($fields as $label => $key) {

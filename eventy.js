@@ -15,7 +15,7 @@
     e_eyebrow: { sk: 'Pre firmy', en: 'For companies' },
     e_lead: { sk: 'More spája tímy ako nič iné.', en: 'The sea bonds teams like nothing else.' },
 
-    foot_tagline: { sk: 'Regata s noblesou a 19-ročnou tradíciou. Organizuje NautiTech, s.r.o.', en: 'A regatta of nobility with a 19-year tradition. Organised by NautiTech, s.r.o.' },
+    foot_tagline: { sk: 'Regata s noblesou a 20-ročnou tradíciou. Organizuje NautiTech, s.r.o.', en: 'A regatta of nobility with a 20-year tradition. Organised by NautiTech, s.r.o.' },
     foot_email_label: { sk: 'E-mail', en: 'E-mail' },
     foot_phone_label: { sk: 'Telefón', en: 'Phone' },
     foot_social_label: { sk: 'Sledujte nás', en: 'Follow us' },
