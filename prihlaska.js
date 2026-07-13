@@ -57,6 +57,7 @@
   };
 
   var lang = 'sk';
+  try { if (localStorage.getItem('gs-lang') === 'en') lang = 'en'; } catch (e) {}
 
   function applyLang() {
     document.documentElement.lang = lang;
@@ -83,6 +84,7 @@
   if (langToggle) {
     langToggle.addEventListener('click', function () {
       lang = lang === 'sk' ? 'en' : 'sk';
+      try { localStorage.setItem('gs-lang', lang); } catch (e) {}
       applyLang();
     });
   }
