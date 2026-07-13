@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prihláška — Gentleman Sailing 2026</title>
+  <meta name="description" content="Prihláška na jubilejný 20. ročník Gentleman Sailing, 18.—21. mája 2026, Národný park Kornati.">
+  <link rel="canonical" href="https://www.gentlemansailing.sk/prihlaska.html">
+  <meta name="theme-color" content="#04141d">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Gentleman Sailing">
+  <meta property="og:locale" content="sk_SK">
+  <meta property="og:url" content="https://www.gentlemansailing.sk/prihlaska.html">
+  <meta property="og:title" content="Prihláška — Gentleman Sailing 2026">
+  <meta property="og:description" content="Prihláška na jubilejný 20. ročník Gentleman Sailing, 18.—21. mája 2026, Národný park Kornati.">
+  <meta property="og:image" content="https://www.gentlemansailing.sk/foto/ev-intro.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/logo-gs.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..700;1,6..96,400..600&family=Cardo:wght@400;700&family=Archivo:wght@300;400;500;600&family=Space+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-prihlaska">
+
+  <!-- ==================== NAV ==================== -->
+  <nav class="nav" id="nav">
+    <a href="index.html#top" class="nav__brand" aria-label="Gentleman Sailing — domov">
+      <img src="assets/logo-gs-light.png" alt="Gentleman Sailing" class="nav__logo">
+    </a>
+
+    <div class="nav__links" id="navLinks">
+      <a href="index.html#top" class="navlink" data-i18n="nav_home">Domov</a>
+      <a href="info.html" class="navlink" data-i18n="ev_info">Ako sa pripraviť na regatu</a>
+      <a href="zazijete.html" class="navlink" data-i18n="ev_experience">Čo zažijete na regate</a>
+      <a href="eventy.html" class="navlink" data-i18n="ev_events">Eventy &amp; teambuildingy</a>
+      <a href="partneri.html" class="navlink" data-i18n="ev_partners">Partneri</a>
+      <button type="button" class="lang-toggle" id="langToggle" aria-label="Prepnúť jazyk / Toggle language">SK / en</button>
+    </div>
+
+    <button type="button" class="nav__burger" id="burger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="page-hero">
+    <div class="eyebrow" data-i18n="form_eyebrow">Prihláška · 20. ročník</div>
+    <h1 class="h2" data-i18n="form_title">Prihláste svoju posádku</h1>
+    <p class="page-hero__lead" data-i18n="form_lead">Vyplňte prihlášku na jubilejný 20. ročník Gentleman Sailing — 18.—21. mája 2026, Národný park Kornati. Po odoslaní vás budeme kontaktovať s ďalšími pokynmi a platobnými údajmi.</p>
+  </header>
+
+  <!-- ==================== FORM ==================== -->
+  <section class="section section--petrol">
+    <div class="form-wrap">
+      <form id="prihlaskaForm" novalidate>
+
+        <!-- Honeypot (anti-spam) — musí zostať prázdne, skryté pred používateľmi -->
+        <div aria-hidden="true" style="position:absolute; left:-9999px; width:1px; height:1px; overflow:hidden;">
+          <label>Website<input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+        </div>
+
+        <!-- Participation choice -->
+        <div class="form-section">
+          <h3 class="form-section__title" data-i18n="fs_fee">Účastnícky poplatok</h3>
+          <div class="choice">
+            <label class="choice__opt">
+              <input type="radio" name="ucast" value="Celá loď" required>
+              <div class="choice__name" data-i18n="opt_boat">Celá loď</div>
+              <div class="choice__price">5 800 € + DPH</div>
+            </label>
+            <label class="choice__opt">
+              <input type="radio" name="ucast" value="Jednotlivec">
+              <div class="choice__name" data-i18n="opt_ind">Jednotlivec</div>
+              <div class="choice__price">799 € + DPH</div>
+            </label>
+          </div>
+        </div>
+
+        <!-- Fakturačné údaje -->
+        <div class="form-section">
+          <h3 class="form-section__title" data-i18n="fs_billing">Fakturačné údaje</h3>
+          <div class="form-grid">
+            <div class="field field--full">
+              <label for="f_nazov" data-i18n="l_nazov">Názov spoločnosti / Meno <span class="req">*</span></label>
+              <input type="text" id="f_nazov" name="Názov / Meno" required>
+            </div>
+            <div class="field field--full">
+              <label for="f_adresa" data-i18n="l_adresa">Adresa <span class="req">*</span></label>
+              <input type="text" id="f_adresa" name="Adresa" required>
+            </div>
+            <div class="field">
+              <label for="f_ico" data-i18n="l_ico">IČO</label>
+              <input type="text" id="f_ico" name="IČO" inputmode="numeric">
+            </div>
+            <div class="field">
+              <label for="f_dic" data-i18n="l_dic">DIČ</label>
+              <input type="text" id="f_dic" name="DIČ">
+            </div>
+            <div class="field field--full">
+              <label for="f_iban" data-i18n="l_iban">Bankové spojenie (účet v tvare IBAN)</label>
+              <input type="text" id="f_iban" name="IBAN" placeholder="SK00 0000 0000 0000 0000 0000">
+            </div>
+          </div>
+        </div>
+
+        <!-- Kontakt -->
+        <div class="form-section">
+          <h3 class="form-section__title" data-i18n="fs_contact">Kontaktné údaje</h3>
+          <div class="form-grid">
+            <div class="field field--full">
+              <label for="f_osoba" data-i18n="l_osoba">Kontaktná osoba <span class="req">*</span></label>
+              <input type="text" id="f_osoba" name="Kontaktná osoba" required>
+            </div>
+            <div class="field">
+              <label for="f_tel" data-i18n="l_tel">Telefón <span class="req">*</span></label>
+              <input type="tel" id="f_tel" name="Telefón" required>
+            </div>
+            <div class="field">
+              <label for="f_email" data-i18n="l_email">Email <span class="req">*</span></label>
+              <input type="email" id="f_email" name="Email" required>
+            </div>
+          </div>
+        </div>
+
+        <!-- Posádka & požiadavky -->
+        <div class="form-section">
+          <h3 class="form-section__title" data-i18n="fs_crew">Posádka a požiadavky</h3>
+          <div class="form-grid">
+            <div class="field field--full">
+              <label data-i18n="l_skipper">Požiadavky na skippera</label>
+              <div class="radio-row">
+                <label class="radio-opt"><input type="radio" name="Skipper" value="Áno"><span data-i18n="yes">Áno</span></label>
+                <label class="radio-opt"><input type="radio" name="Skipper" value="Nie"><span data-i18n="no">Nie</span></label>
+              </div>
+            </div>
+            <div class="field field--full">
+              <label for="f_vybava" data-i18n="l_vybava">Požiadavky na doplnkovú výbavu</label>
+              <input type="text" id="f_vybava" name="Doplnková výbava">
+            </div>
+            <div class="field field--full">
+              <label for="f_char" data-i18n="l_char">Charakteristika posádky</label>
+              <textarea id="f_char" name="Charakteristika posádky" data-i18n-ph="ph_char" placeholder="Napr. skúsenosti s plavbou na plachetnici…"></textarea>
+            </div>
+          </div>
+        </div>
+
+        <!-- Voľby & súhlas -->
+        <div class="form-section">
+          <label class="check-row">
+            <input type="checkbox" name="Loď na celý týždeň" value="Áno">
+            <span data-i18n="c_week">Chcem loď na celý týždeň 16.—23. 05. 2026</span>
+          </label>
+          <label class="check-row">
+            <input type="checkbox" name="GDPR" value="Áno" required>
+            <span data-i18n="c_gdpr">Súhlasím so spracovaním osobných údajov na účel vybavenia prihlášky. <a href="index.html">Viac informácií</a> <span class="req">*</span></span>
+          </label>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="cta price-cta" style="margin-top:0;" data-i18n="submit">Odoslať</button>
+          <p class="form-note" data-i18n="form_note">Po odoslaní vás budeme kontaktovať e-mailom. Platby je potrebné uhradiť najneskôr do 31. 1. 2026.</p>
+        </div>
+
+        <div class="form-success" id="formSuccess" data-i18n="success">Ďakujeme! Vaša prihláška bola odoslaná. Čoskoro sa vám ozveme.</div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <img src="assets/logo-gs-light.png" alt="Gentleman Sailing" class="footer__logo">
+        <p class="footer__tag" data-i18n="foot_tagline">Regata s noblesou a 19-ročnou tradíciou. Organizuje NautiTech, s.r.o.</p>
+      </div>
+      <div>
+        <div class="footer__label" data-i18n="foot_email_label">E-mail</div>
+        <a href="mailto:info@nautitech.sk">info@nautitech.sk</a>
+      </div>
+      <div>
+        <div class="footer__label" data-i18n="foot_phone_label">Telefón</div>
+        <div class="footer__phone">0907 886 887<br>0907 825 078</div>
+      </div>
+      <div>
+        <div class="footer__label" data-i18n="foot_social_label">Sledujte nás</div>
+        <div class="footer__social">
+          <a href="https://www.instagram.com/gentlemansailing.sk" class="navlink" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.facebook.com/profile.php?id=61571883745033" class="navlink" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Gentleman Sailing · NautiTech, s.r.o.</span>
+      <span><a href="index.html" class="back-link" data-i18n="back">← Späť na hlavnú stránku</a></span>
+    </div>
+  </footer>
+
+  <script src="prihlaska.js"></script>
+</body>
+</html>
