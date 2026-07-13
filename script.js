@@ -37,7 +37,7 @@
     events_title: { sk: 'Eventy & teambuildingy', en: 'Events & teambuilding' },
     events_body: { sk: 'Doterajších 20 ročníkov si užilo viac ako 89 firiem. More spája tímy ako nič iné — spoločná posádka, jeden cieľ a noblesa pravej regaty. Pripravíme vám firemný event na mieru, od jednej plachetnice po celú flotilu.', en: 'More than 89 companies have enjoyed the past 20 editions. The sea bonds teams like nothing else — one crew, one goal and the nobility of a true regatta. We will craft a tailor-made corporate event for you, from a single yacht to a whole fleet.' },
     ev_card1_t: { sk: 'Firemné regaty', en: 'Corporate regattas' },
-    ev_card1_b: { sk: 'Súťaživá no priateľská atmosféra na vode, vyhodnotenie, trofeje a logá vašej značky na plachtách.', en: 'A competitive yet friendly atmosphere on the water, awards, trophies and your brand on the sails.' },
+    ev_card1_b: { sk: 'Súťaživá no priateľská atmosféra na vode, vyhodnotenie a trofeje.', en: 'A competitive yet friendly atmosphere on the water, awards and trophies.' },
     ev_card2_t: { sk: 'Teambuilding na mori', en: 'Teambuilding at sea' },
     ev_card2_b: { sk: 'Tím v jednej posádke, kde každý rukou priloží k dielu. Zážitok, ktorý stmelí kolektív na celý rok.', en: 'A team in one crew where everyone lends a hand. An experience that bonds the group for the whole year.' },
     ev_card3_t: { sk: 'Incentívne plavby', en: 'Incentive cruises' },
