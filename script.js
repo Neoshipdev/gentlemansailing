@@ -45,6 +45,7 @@
     past_eyebrow: { sk: '20 odplavených ročníkov', en: '20 editions sailed' },
     past_title: { sk: 'Zážitky na spoločnej vlne', en: 'Experiences on a shared wave' },
     past_body: { sk: 'Od IT Regaty Open cez Trend Regatu až po Gentleman Sailing. Každý ročník vlastný príbeh, prístav a posádky.', en: 'From IT Regata Open through Trend Regata to Gentleman Sailing. Every edition its own story, port and crews.' },
+    past_yt: { sk: 'Sledujte naše a vaše zážitky', en: 'Watch our shared experiences' },
     gallery_eyebrow: { sk: '#gentlemansailing', en: '#gentlemansailing' },
     gallery_title: { sk: 'Galéria', en: 'Gallery' },
     gallery_body: { sk: 'Momentky spod napnutých plachiet — slobodu osolenú morskou vodou treba vidieť.', en: 'Moments from beneath full sails — freedom salted by the sea must be seen.' },
