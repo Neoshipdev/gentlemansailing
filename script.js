@@ -43,7 +43,7 @@
     ev_card3_t: { sk: 'Incentívne plavby', en: 'Incentive cruises' },
     ev_card3_b: { sk: 'Odmeňte partnerov a klientov nezabudnuteľným týždňom v zátokách Jadranu so spoločnými večerami.', en: 'Reward partners and clients with an unforgettable week in Adriatic bays with shared dinners.' },
     past_eyebrow: { sk: '20 odplavených ročníkov', en: '20 editions sailed' },
-    past_title: { sk: 'Minulé ročníky', en: 'Past editions' },
+    past_title: { sk: 'Zážitky na spoločnej vlne', en: 'Experiences on a shared wave' },
     past_body: { sk: 'Od IT Regaty Open cez Trend Regatu až po Gentleman Sailing. Každý ročník vlastný príbeh, prístav a posádky.', en: 'From IT Regata Open through Trend Regata to Gentleman Sailing. Every edition its own story, port and crews.' },
     gallery_eyebrow: { sk: '#gentlemansailing', en: '#gentlemansailing' },
     gallery_title: { sk: 'Galéria', en: 'Gallery' },
@@ -167,6 +167,20 @@
       // TODO: wire to real newsletter backend / API endpoint.
     });
   }
+
+  /* ---------- Video cards: click-to-play (lite YouTube embed) ---------- */
+  document.querySelectorAll('.video-card').forEach(function (card) {
+    card.addEventListener('click', function () {
+      if (card.querySelector('iframe')) return;
+      var id = card.getAttribute('data-yt');
+      var iframe = document.createElement('iframe');
+      iframe.src = 'https://www.youtube-nocookie.com/embed/' + id + '?autoplay=1&rel=0';
+      iframe.title = 'Gentleman Sailing — video';
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+      iframe.allowFullscreen = true;
+      card.appendChild(iframe);
+    });
+  });
 
   /* ---------- Init ---------- */
   applyLang();

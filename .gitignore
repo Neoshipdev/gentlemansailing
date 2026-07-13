@@ -6,3 +6,6 @@ Desktop.ini
 # editor
 .vscode/
 .idea/
+
+# large raw video sources (exceed GitHub 100MB limit)
+*.mov
