@@ -53,6 +53,8 @@
     e_end_p2: { sk: "Či už pripravujete reprezentatívne stretnutie pre klientov, odmenu pre obchodných partnerov alebo teambuilding pre interný tím, regata prináša kombináciu zážitku, emócie a spoločného cieľa.", en: "Whether you are preparing a representative meeting for clients, a reward for business partners or teambuilding for your internal team, the regatta brings a combination of experience, emotion and a common goal." },
     e_cta_t: { sk: "Plavte sa s nami", en: "Sail with us" },
     e_cta_p: { sk: "Vytvorte si vlastnú firemnú posádku, pozvite klientov alebo doprajte svojmu tímu teambuilding, ktorý bude mať vietor v plachtách. Pridajte sa k Gentleman Sailing a zažite firemný event, na ktorý sa bude spomínať ešte dlho po návrate z mora.", en: "Create your own corporate crew, invite clients or give your team a teambuilding with wind in its sails. Join Gentleman Sailing and experience a corporate event that will be remembered long after returning from the sea." },
+    foot_vop: { sk: 'Všeobecné obchodné podmienky', en: 'Terms and conditions' },
+    foot_gdpr: { sk: 'Ochrana osobných údajov', en: 'Privacy policy' },
     foot_tagline: { sk: 'Regata s noblesou a 20-ročnou tradíciou. Organizuje NautiTech, s.r.o.', en: 'A regatta of nobility with a 20-year tradition. Organised by NautiTech, s.r.o.' },
     foot_email_label: { sk: 'E-mail', en: 'E-mail' },
     foot_phone_label: { sk: 'Telefón', en: 'Phone' },

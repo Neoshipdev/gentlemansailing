@@ -1,6 +1,6 @@
 /* ==========================================================================
-   Gentleman Sailing — partneri (partners page)
-   Nav scroll + mobile menu + SK/EN toggle
+   Gentleman Sailing — všeobecné obchodné podmienky
+   Nav scroll + mobile menu + SK/EN toggle (chrome only; legal text stays SK)
    ========================================================================== */
 (function () {
   'use strict';
@@ -10,29 +10,18 @@
     ev_info: { sk: 'Ako sa pripraviť na regatu', en: 'How to prepare' },
     ev_experience: { sk: 'Čo zažijete na regate', en: 'What you’ll experience' },
     ev_events: { sk: 'Eventy & teambuildingy', en: 'Events & teambuilding' },
-    ev_gallery: { sk: 'Galéria', en: 'Gallery' },
     ev_partners: { sk: 'Partneri', en: 'Partners' },
     ev_signup: { sk: 'Prihláška', en: 'Sign up' },
 
-    p_eyebrow: { sk: 'Na plavbe nás podporujú', en: 'They support us on the voyage' },
-    p_title: { sk: 'Partneri', en: 'Partners' },
-    p_lead: { sk: 'Bez našich partnerov by regata nebola tým, čím je. Ďakujeme spoločnostiam, ktoré nám držia vietor v plachtách — z roka na rok, ročník za ročníkom.', en: 'Without our partners the regatta would not be what it is. Thank you to the companies that keep the wind in our sails — year after year, edition after edition.' },
+    v_eyebrow: { sk: 'VOP', en: 'Terms' },
+    v_title: { sk: 'Všeobecné obchodné podmienky', en: 'Terms and conditions' },
 
-    p_realizator: { sk: 'Realizačný partner', en: 'Organising partner' },
-    p_realizator_text: { sk: 'Plavíme sa pod kapitánskym dozorom spoločnosti NautiTech, s.r.o., ktorá sa ujíma organizácie 21. ročníka.', en: 'We sail under the captain’s supervision of NautiTech, s.r.o., which takes on the organisation of the 21st edition.' },
-
-    p_partners_label: { sk: 'Partneri & sponzori', en: 'Partners & sponsors' },
-
-    p_cta_title: { sk: 'Chcete sa stať partnerom?', en: 'Want to become a partner?' },
-    p_cta_text: { sk: 'Spojte svoju značku s regatou s 20-ročnou tradíciou a osloviť desiatky firiem na palube i na brehu.', en: 'Connect your brand with a regatta of 20-year tradition and reach dozens of companies on board and ashore.' },
-    p_cta_btn: { sk: 'Napíšte nám', en: 'Get in touch' },
-
-    foot_vop: { sk: 'Všeobecné obchodné podmienky', en: 'Terms and conditions' },
-    foot_gdpr: { sk: 'Ochrana osobných údajov', en: 'Privacy policy' },
     foot_tagline: { sk: 'Regata s noblesou a 20-ročnou tradíciou. Organizuje NautiTech, s.r.o.', en: 'A regatta of nobility with a 20-year tradition. Organised by NautiTech, s.r.o.' },
     foot_email_label: { sk: 'E-mail', en: 'E-mail' },
     foot_phone_label: { sk: 'Telefón', en: 'Phone' },
     foot_social_label: { sk: 'Sledujte nás', en: 'Follow us' },
+    foot_gdpr: { sk: 'Ochrana osobných údajov', en: 'Privacy policy' },
+    foot_vop: { sk: 'Všeobecné obchodné podmienky', en: 'Terms and conditions' },
     back: { sk: '← Späť na hlavnú stránku', en: '← Back to homepage' }
   };
 
@@ -58,7 +47,6 @@
     });
   }
 
-  /* Nav scroll state */
   var nav = document.getElementById('nav');
   function onScroll() {
     if (!nav) return;
@@ -68,7 +56,6 @@
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
 
-  /* Mobile menu */
   var burger = document.getElementById('burger');
   var navLinks = document.getElementById('navLinks');
   if (burger && nav) {

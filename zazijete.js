@@ -125,6 +125,8 @@
     z_cta_p2: { sk: "Či prichádzate ako firma, posádka, jednotlivec, klient, partner alebo člen tímu, Gentleman Sailing vám ukáže, že skutočná plavba sa nezačína až na mori. Začína sa rozhodnutím vyplávať.", en: "Whether you come as a company, a crew, an individual, a client, a partner or a team member, Gentleman Sailing will show you that the real voyage does not begin at sea. It begins with the decision to set sail." },
     z_du_t: { sk: "Duch regaty", en: "The spirit of the regatta" },
     z_tagline: { sk: "Gentleman Sailing — regata, kde <em>fair play</em> drží kurz a vietor nesie zážitky.", en: "Gentleman Sailing — a regatta where <em>fair play</em> holds the course and the wind carries the experiences." },
+    foot_vop: { sk: 'Všeobecné obchodné podmienky', en: 'Terms and conditions' },
+    foot_gdpr: { sk: 'Ochrana osobných údajov', en: 'Privacy policy' },
     foot_tagline: { sk: 'Regata s noblesou a 20-ročnou tradíciou. Organizuje NautiTech, s.r.o.', en: 'A regatta of nobility with a 20-year tradition. Organised by NautiTech, s.r.o.' },
     foot_email_label: { sk: 'E-mail', en: 'E-mail' },
     foot_phone_label: { sk: 'Telefón', en: 'Phone' },

@@ -43,12 +43,14 @@
     ph_char: { sk: 'Napr. skúsenosti s plavbou na plachetnici…', en: 'E.g. sailing experience…' },
 
     c_week: { sk: 'Chcem loď na celý týždeň (termín upresníme)', en: 'I want the boat for the whole week (dates to be confirmed)' },
-    c_gdpr: { sk: 'Súhlasím so spracovaním osobných údajov na účel vybavenia prihlášky. <a href="index.html">Viac informácií</a> <span class="req">*</span>', en: 'I consent to the processing of personal data for the purpose of handling the registration. <a href="index.html">More info</a> <span class="req">*</span>' },
+    c_gdpr: { sk: 'Súhlasím so spracovaním osobných údajov na účel vybavenia prihlášky. <a href="gdpr.html">Viac informácií</a> <span class="req">*</span>', en: 'I consent to the processing of personal data for the purpose of handling the registration. <a href="gdpr.html">More info</a> <span class="req">*</span>' },
 
     submit: { sk: 'Odoslať', en: 'Submit' },
     form_note: { sk: 'Po odoslaní vás budeme kontaktovať e-mailom. Platby je potrebné uhradiť najneskôr do 31. 1. 2027.', en: 'After submission we will contact you by e-mail. Payments must be settled no later than 31 January 2027.' },
     success: { sk: 'Ďakujeme! Vaša prihláška bola odoslaná. Čoskoro sa vám ozveme.', en: 'Thank you! Your registration has been sent. We will be in touch shortly.' },
 
+    foot_vop: { sk: 'Všeobecné obchodné podmienky', en: 'Terms and conditions' },
+    foot_gdpr: { sk: 'Ochrana osobných údajov', en: 'Privacy policy' },
     foot_tagline: { sk: 'Regata s noblesou a 20-ročnou tradíciou. Organizuje NautiTech, s.r.o.', en: 'A regatta of nobility with a 20-year tradition. Organised by NautiTech, s.r.o.' },
     foot_email_label: { sk: 'E-mail', en: 'E-mail' },
     foot_phone_label: { sk: 'Telefón', en: 'Phone' },

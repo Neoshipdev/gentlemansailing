@@ -87,6 +87,8 @@
     i_r11: { sk: "Obmedzenie vyťahovania", en: "Haul-out restrictions" },
     i_r12: { sk: "Ceny GS", en: "GS prizes" },
     i_r13: { sk: "Vzdanie sa zodpovednosti", en: "Disclaimer of liability" },
+    foot_vop: { sk: 'Všeobecné obchodné podmienky', en: 'Terms and conditions' },
+    foot_gdpr: { sk: 'Ochrana osobných údajov', en: 'Privacy policy' },
     foot_tagline: { sk: 'Regata s noblesou a 20-ročnou tradíciou. Organizuje NautiTech, s.r.o.', en: 'A regatta of nobility with a 20-year tradition. Organised by NautiTech, s.r.o.' },
     foot_email_label: { sk: 'E-mail', en: 'E-mail' },
     foot_phone_label: { sk: 'Telefón', en: 'Phone' },

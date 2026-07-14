@@ -695,6 +695,8 @@ img { display: block; }
   line-height: 1; margin-bottom: 18px;
 }
 .article p { font-size: 21px; line-height: 1.85; color: var(--cream-72); margin: 0 0 20px; }
+.article h4 { font-family: var(--serif); font-weight: 500; font-size: 23px; color: var(--cream); margin: 36px 0 14px; }
+.article strong { color: var(--cream); }
 .article p:last-child { margin-bottom: 0; }
 .block { margin-bottom: 80px; }
 .block:last-child { margin-bottom: 0; }
