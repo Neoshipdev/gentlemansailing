@@ -140,6 +140,18 @@
       if (e.target && e.target.style) e.target.style.borderBottomColor = '';
     });
 
+    // highlight selected participation card — fallback for browsers without :has()
+    function syncChoice() {
+      form.querySelectorAll('.choice__opt').forEach(function (opt) {
+        var input = opt.querySelector('input');
+        opt.classList.toggle('is-checked', !!(input && input.checked));
+      });
+    }
+    form.querySelectorAll('.choice__opt input').forEach(function (input) {
+      input.addEventListener('change', syncChoice);
+    });
+    syncChoice();
+
     form.addEventListener('submit', function (e) {
       e.preventDefault();
       var ok = true;
