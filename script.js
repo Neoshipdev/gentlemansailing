@@ -19,7 +19,7 @@
     ev_signup: { sk: 'Prihláška', en: 'Sign up' },
     hero_kicker: { sk: '21. ročník — Chorvátsko 2027', en: '21st Edition — Croatia 2027' },
     hero_title_html: { sk: 'S novým vetrom<br><span>v plachtách</span>', en: 'With fresh wind<br><span>in the sails</span>' },
-    hero_date: { sk: 'Máj 2027  ·  Národný park Kornati', en: 'May 2027  ·  Kornati National Park' },
+    hero_date: { sk: 'Máj 2027  ·  Chorvátsko', en: 'May 2027  ·  Croatia' },
     cd_days: { sk: 'DNÍ', en: 'DAYS' }, cd_hours: { sk: 'HODÍN', en: 'HOURS' }, cd_min: { sk: 'MINÚT', en: 'MIN' }, cd_sec: { sk: 'SEKÚND', en: 'SEC' },
     hero_cta: { sk: 'Prihlásiť posádku', en: 'Register a crew' },
     intro_eyebrow: { sk: 'Gentleman Sailing', en: 'Gentleman Sailing' },
