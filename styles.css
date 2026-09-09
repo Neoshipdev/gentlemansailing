@@ -517,7 +517,7 @@ body .choice__opt.is-checked { border-color: var(--accent); background: rgba(238
   color: var(--cream-60); margin-bottom: 10px;
 }
 .field label .req { color: var(--accent); }
-.field input,
+.field input:not([type="radio"]):not([type="checkbox"]),
 .field textarea {
   -webkit-appearance: none; appearance: none; border-radius: 0;
   background: transparent; border: none; border-bottom: 1px solid var(--hair-24);
