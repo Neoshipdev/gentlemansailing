@@ -56,6 +56,7 @@
     i_c3_l4: { sk: "Akumulátory, adaptéry, nabíjačky (na lodi 12 V, v prístave aj 220 V)", en: "Batteries, adapters, chargers (12 V on board, 220 V in the marina)" },
     i_imp_t: { sk: "Organizátor & partneri", en: "Organiser & partners" },
     i_f_org: { sk: "Organizátor", en: "Organiser" },
+    i_f_partners: { sk: "Partneri", en: "Partners" },
     i_f_real: { sk: "Realizačný partner", en: "Organising partner" },
     i_b01: { sk: "Preteky sa riadia pravidlami definovanými v Pretekových pravidlách jachtingu platnými na rok 2027.", en: "The races are governed by the Racing Rules of Sailing in force for 2027." },
     i_b02: { sk: "Účastníci pretekov sú povinní mať na určených miestach na lodiach umiestnené reklamné materiály sponzorov podujatia, ktoré dodá organizátor GS 2027. Akákoľvek iná reklamná a propagačná činnosť spojená s pretekmi pred, počas alebo po pretekoch je možná iba na základe písomnej dohody s organizátorom.", en: "Competitors are required to display the event sponsors' advertising materials, supplied by the GS 2027 organiser, in the designated places on the boats. Any other advertising or promotional activity connected with the races before, during or after the event is possible only under a written agreement with the organiser." },
