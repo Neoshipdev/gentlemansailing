@@ -649,6 +649,7 @@ body .choice__opt.is-checked { border-color: var(--accent); background: rgba(238
    Content pages (info.html, eventy.html)
    ========================================================================== */
 .article { max-width: 900px; margin: 0 auto; }
+.split + .article { margin-top: 80px; }
 
 /* Photo beside text (subpage splits) */
 .split p { font-size: 21px; line-height: 1.85; color: var(--cream-72); margin: 0 0 20px; }
