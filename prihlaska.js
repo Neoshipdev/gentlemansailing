@@ -16,7 +16,7 @@
 
     form_eyebrow: { sk: 'Prihláška · 21. ročník', en: 'Registration · 21st edition' },
     form_title: { sk: 'Prihláste svoju posádku', en: 'Register your crew' },
-    form_lead: { sk: 'Vyplňte prihlášku na 21. ročník Gentleman Sailing — máj 2027. Po odoslaní vás budeme kontaktovať s ďalšími pokynmi a platobnými údajmi.', en: 'Fill in the registration for the 21st edition of Gentleman Sailing — May 2027. After submission we will contact you with further instructions and payment details.' },
+    form_lead: { sk: 'Vyplňte prihlášku na 21. ročník Gentleman Sailing — štart 16. mája 2027. Po odoslaní vás budeme kontaktovať s ďalšími pokynmi a platobnými údajmi.', en: 'Fill in the registration for the 21st edition of Gentleman Sailing — start 16 May 2027. After submission we will contact you with further instructions and payment details.' },
 
     fs_fee: { sk: 'Účastnícky poplatok', en: 'Participation fee' },
     opt_boat: { sk: 'Celá loď', en: 'Whole boat' },

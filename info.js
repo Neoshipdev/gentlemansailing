@@ -24,6 +24,8 @@
     i_lead: { sk: "Ako sa zbaliť? Aké sú pravidlá? Čo vás čaká? Ako sa dopraviť na regatu? Všetky praktické informácie, ako sa dostať do Marina Hramina a nielen to, nájdete práve tu. Neváhajte nás kontaktovať s ďalšími otázkami.", en: "How to pack? What are the rules? What awaits you? How to get to the regatta? All the practical information on getting to Marina Hramina — and more — is right here. Do not hesitate to contact us with any further questions." },
     i_f_event: { sk: "Udalosť", en: "Event" },
     i_f_event_v: { sk: "Marina Hramina", en: "Marina Hramina" },
+    i_f_start: { sk: "Začiatok regaty", en: "Regatta start" },
+    i_f_start_v: { sk: "16. mája 2027 o 18:00", en: "16 May 2027 at 6 p.m." },
     i_f_dist: { sk: "Vzdialenosť", en: "Distance" },
     i_f_dist_v: { sk: "720—760 km · približne 7—8 hodín jazdy", en: "720–760 km · about 7–8 hours by car" },
     i_f_r1: { sk: "Trasa 1", en: "Route 1" },

@@ -1,7 +1,7 @@
 /* ==========================================================================
    Gentleman Sailing — interactions
    - Hero video autoplay/loop watchdog
-   - Countdown to the 2027 edition (provisional date)
+   - Countdown to the 2027 edition start (16. 5. 2027, 18:00 CEST)
    - SK/EN language toggle
    - Nav scroll state + mobile menu
    ========================================================================== */
@@ -19,7 +19,7 @@
     ev_signup: { sk: 'Prihláška', en: 'Sign up' },
     hero_kicker: { sk: '21. ročník — Chorvátsko 2027', en: '21st Edition — Croatia 2027' },
     hero_title_html: { sk: 'S novým vetrom<br><span>v plachtách</span>', en: 'With fresh wind<br><span>in the sails</span>' },
-    hero_date: { sk: 'Máj 2027  ·  Chorvátsko', en: 'May 2027  ·  Croatia' },
+    hero_date: { sk: '16. mája 2027  ·  Chorvátsko', en: '16 May 2027  ·  Croatia' },
     cd_days: { sk: 'DNÍ', en: 'DAYS' }, cd_hours: { sk: 'HODÍN', en: 'HOURS' }, cd_min: { sk: 'MINÚT', en: 'MIN' }, cd_sec: { sk: 'SEKÚND', en: 'SEC' },
     hero_cta: { sk: 'Prihlásiť posádku', en: 'Register a crew' },
     intro_eyebrow: { sk: 'Gentleman Sailing', en: 'Gentleman Sailing' },
@@ -101,7 +101,7 @@
   }
 
   /* ---------- Countdown ---------- */
-  var target = new Date('2027-05-17T00:00:00'); // predbežný termín — upraviť po potvrdení
+  var target = new Date('2027-05-16T18:00:00+02:00'); // štart regaty, čas v Chorvátsku (CEST)
   function pad(n) { return String(n).padStart(2, '0'); }
   function tickCountdown() {
     var diff = Math.max(0, target - new Date());
