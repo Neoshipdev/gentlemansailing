@@ -69,6 +69,8 @@
   onScroll();
 
   /* Mobile menu */
+  // enable drawer slide animation only after the first paint
+  if (nav) setTimeout(function () { nav.classList.add('nav-ready'); }, 60);
   var burger = document.getElementById('burger');
   var navLinks = document.getElementById('navLinks');
   if (burger && nav) {
