@@ -35,7 +35,7 @@
     video_title: { sk: 'Pozvánka na regatu Gentleman Sailing', en: 'Invitation to the Gentleman Sailing regatta' },
     events_eyebrow: { sk: 'Pre firmy', en: 'For companies' },
     events_title: { sk: 'Eventy & teambuildingy', en: 'Events & teambuilding' },
-    events_body: { sk: 'Doterajších 20 ročníkov si užilo viac ako 89 firiem. More spája tímy ako nič iné — spoločná posádka, jeden cieľ a noblesa pravej regaty. Pripravíme vám firemný event na mieru, od jednej plachetnice po celú flotilu.', en: 'More than 89 companies have enjoyed the past 20 editions. The sea bonds teams like nothing else — one crew, one goal and the nobility of a true regatta. We will craft a tailor-made corporate event for you, from a single yacht to a whole fleet.' },
+    events_body: { sk: 'Doterajších 20 ročníkov si užilo viac ako 107 firiem. More spája tímy ako nič iné — spoločná posádka, jeden cieľ a noblesa pravej regaty. Pripravíme vám firemný event na mieru, od jednej plachetnice po celú flotilu.', en: 'More than 107 companies have enjoyed the past 20 editions. The sea bonds teams like nothing else — one crew, one goal and the nobility of a true regatta. We will craft a tailor-made corporate event for you, from a single yacht to a whole fleet.' },
     ev_card1_t: { sk: 'Firemné eventy na regate', en: 'Corporate events at the regatta' },
     ev_card1_b: { sk: 'Súťaživá no priateľská atmosféra na vode, vyhodnotenie, trofeje a nezabudnuteľné zážitky s klientami.', en: 'A competitive yet friendly atmosphere on the water, awards, trophies and unforgettable experiences with your clients.' },
     ev_card2_t: { sk: 'Teambuilding na mori', en: 'Teambuilding at sea' },
