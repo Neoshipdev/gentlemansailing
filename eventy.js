@@ -13,7 +13,7 @@
     ev_signup: { sk: 'Prihláška', en: 'Sign up' },
 
     e_eyebrow: { sk: 'Pre firmy', en: 'For companies' },
-    e_lead: { sk: 'More spája tímy ako nič iné.', en: 'The sea bonds teams like nothing else.' },
+    e_lead: { sk: 'More spája tímy ako žiadne iné prostredie.', en: 'The sea bonds teams like no other environment.' },
 
     e_title: { sk: "Eventy & teambuildingy", en: "Events & teambuilding" },
     e_p1: { sk: "Doprajte svojim klientom, obchodným partnerom alebo zamestnancom zážitok, na ktorý sa nezabúda. Gentleman Sailing nie je len regata. Je to priestor, kde sa stretáva súťaživá energia, tímová spolupráca, oddych na mori a atmosféra, ktorá prirodzene vytvára nové vzťahy.", en: "Give your clients, business partners or employees an experience they will never forget. Gentleman Sailing is not just a regatta. It is a space where competitive energy, teamwork, relaxation at sea and an atmosphere that naturally creates new relationships come together." },
@@ -39,7 +39,7 @@
     e_tb_p3: { sk: "A to doslova.", en: "Quite literally." },
     e_02_t: { sk: "Teambuilding na mori", en: "Teambuilding at sea" },
     e_02_p1: { sk: "Zoberte svoj tím mimo každodenného pracovného prostredia a doprajte mu zážitok, ktorý ho skutočne spojí. Teambuilding na mori nie je len o oddychu. Je o spoločnej zodpovednosti, rozhodovaní, komunikácii a radosti z dosiahnutého cieľa.", en: "Take your team out of the everyday work environment and give them an experience that truly brings them together. Teambuilding at sea is not just about relaxing. It is about shared responsibility, decision-making, communication and the joy of reaching a goal." },
-    e_02_p2: { sk: "Počas regaty sa z kolegov stáva posádka. Každý priloží ruku k dielu a každý je súčasťou spoločného výsledku. Práve preto si tímy odnášajú nielen krásne spomienky, ale aj silnejšie vzťahy, lepšiu komunikáciu a energiu, ktorá pretrvá aj po návrate na pevninu.", en: "During the regatta, colleagues become a crew. Everyone lends a hand and everyone is part of the common result. That is why teams take away not only beautiful memories but also stronger relationships, better communication and energy that lasts long after returning to shore." },
+    e_02_p2: { sk: "Počas regaty sa z kolegov stáva posádka. Každý priloží ruku k dielu a každý je súčasťou spoločného výsledku. Práve preto si tímy odnášajú nielen krásne spomienky, ale aj silnejšie vzťahy, lepšiu komunikáciu a energiu, ktorá pretrvá aj po návrate domov do pracovného prostredia.", en: "During the regatta, colleagues become a crew. Everyone lends a hand and everyone is part of the common result. That is why teams take away not only beautiful memories but also stronger relationships, better communication and energy that lasts long after returning home to the workplace." },
     e_02_sub: { sk: "Prečo zvoliť teambuilding na mori", en: "Why choose teambuilding at sea" },
     e_02_l1: { sk: "Tím zažije skutočnú spoluprácu v praxi", en: "The team experiences real cooperation in practice" },
     e_02_l2: { sk: "Každý člen posádky má svoju úlohu", en: "Every crew member has a role" },

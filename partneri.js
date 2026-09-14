@@ -19,7 +19,7 @@
     p_lead: { sk: 'Bez našich partnerov by regata nebola tým, čím je. Ďakujeme spoločnostiam, ktoré nám držia vietor v plachtách — z roka na rok, ročník za ročníkom.', en: 'Without our partners the regatta would not be what it is. Thank you to the companies that keep the wind in our sails — year after year, edition after edition.' },
 
     p_realizator: { sk: 'Realizačný partner', en: 'Organising partner' },
-    p_realizator_text: { sk: 'Plavíme sa pod kapitánskym dozorom spoločnosti NautiTech, s.r.o., ktorá sa ujíma organizácie 21. ročníka.', en: 'We sail under the captain’s supervision of NautiTech, s.r.o., which takes on the organisation of the 21st edition.' },
+    p_realizator_text: { sk: 'Plavíme sa pod kapitánskym dozorom spoločnosti NautiTech, s.r.o.', en: 'We sail under the captain’s supervision of NautiTech, s.r.o.' },
 
     p_partners_label: { sk: 'Partneri & sponzori', en: 'Partners & sponsors' },
 

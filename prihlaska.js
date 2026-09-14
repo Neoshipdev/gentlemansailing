@@ -46,7 +46,7 @@
     c_gdpr: { sk: 'Súhlasím so spracovaním osobných údajov na účel vybavenia prihlášky. <a href="gdpr.html">Viac informácií</a> <span class="req">*</span>', en: 'I consent to the processing of personal data for the purpose of handling the registration. <a href="gdpr.html">More info</a> <span class="req">*</span>' },
 
     submit: { sk: 'Odoslať', en: 'Submit' },
-    form_note: { sk: 'Po odoslaní vás budeme kontaktovať e-mailom. Prvú časť štartovného je potrebné uhradiť najneskôr do 7 dní od potvrdenia účasti.', en: 'After submission we will contact you by e-mail. The first part of the entry fee must be paid within 7 days of confirmation of participation.' },
+    form_note: { sk: 'Po odoslaní vás budeme kontaktovať e-mailom. Prvú časť štartovného je potrebné uhradiť najneskôr 7 dní po realizácii prihlášky.', en: 'After submission we will contact you by e-mail. The first part of the entry fee must be paid no later than 7 days after submitting the registration.' },
     success: { sk: 'Ďakujeme! Vaša prihláška bola odoslaná. Čoskoro sa vám ozveme.', en: 'Thank you! Your registration has been sent. We will be in touch shortly.' },
 
     foot_vop: { sk: 'Všeobecné obchodné podmienky', en: 'Terms and conditions' },
