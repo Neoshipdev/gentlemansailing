@@ -72,7 +72,7 @@ img { display: block; }
   font-family: var(--serif);
   font-weight: 500;
   font-size: clamp(40px, 4.6vw, 68px);
-  line-height: 1.02;
+  line-height: 1.12;
   margin: 0 0 32px;
   color: var(--cream);
 }
@@ -226,7 +226,7 @@ img { display: block; }
 }
 .hero__title {
   font-family: var(--serif); font-weight: 500;
-  font-size: clamp(56px, 9vw, 118px); line-height: .95;
+  font-size: clamp(56px, 9vw, 118px); line-height: 1.2;
   color: var(--cream); margin: 0; letter-spacing: .005em;
 }
 .hero__title span { font-style: italic; font-weight: 400; }
@@ -411,7 +411,7 @@ img { display: block; }
    Sign-up / pricing
    ========================================================================== */
 .signup__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; }
-.price-title { font-family: var(--serif); font-weight: 500; font-size: clamp(40px, 4.6vw, 68px); line-height: 1; margin: 0 0 44px; }
+.price-title { font-family: var(--serif); font-weight: 500; font-size: clamp(40px, 4.6vw, 68px); line-height: 1.12; margin: 0 0 44px; }
 .price-row {
   display: flex; align-items: baseline; justify-content: space-between;
   border-top: 1px solid var(--hair-16); padding: 24px 0;
@@ -698,7 +698,7 @@ body .choice__opt.is-checked { border-color: var(--accent); background: rgba(238
 
 .h3-serif {
   font-family: var(--serif); font-weight: 500;
-  font-size: clamp(26px, 3vw, 40px); line-height: 1.1; color: var(--cream);
+  font-size: clamp(26px, 3vw, 40px); line-height: 1.18; color: var(--cream);
   margin: 0 0 26px;
 }
 .kicker-num {
