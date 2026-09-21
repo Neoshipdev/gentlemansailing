@@ -715,9 +715,13 @@ body .choice__opt.is-checked { border-color: var(--accent); background: rgba(238
 
 /* Čo zažijete — justified paragraphs; text-only chapters centred on the page */
 .page-zazijete .article .block > p:not(.pullquote),
-.page-zazijete .split .block > p { text-align: justify; -webkit-hyphens: auto; hyphens: auto; }
+.page-zazijete .split .block > p,
+.page-eventy .article .block > p:not(.pullquote),
+.page-eventy .split .block > p { text-align: justify; -webkit-hyphens: auto; hyphens: auto; }
 .page-zazijete .article .block > .eyebrow,
-.page-zazijete .article .block > .h3-serif { text-align: center; }
+.page-zazijete .article .block > .h3-serif,
+.page-eventy .article .block > .eyebrow,
+.page-eventy .article .block > .h3-serif { text-align: center; }
 
 /* Accent tick / bullet list */
 .ticklist { list-style: none; margin: 8px 0 0; padding: 0; }
