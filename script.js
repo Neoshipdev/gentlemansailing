@@ -29,7 +29,7 @@
     stats_note: { sk: '107 firiem · 9 marín · 20 odplavených ročníkov', en: '107 companies · 9 marinas · 20 editions sailed' },
     dest_eyebrow: { sk: 'Kornati · Severná Dalmácia', en: 'Kornati · Northern Dalmatia' },
     dest_title: { sk: 'Na vlnách k novým obzorom', en: 'On the waves to new horizons' },
-    dest_body: { sk: 'Budeme sa plaviť v oblasti národného parku Kornati v severnej Dalmácii v oblasti Šibenského akvatória.', en: 'We will sail near the Kornati National Park in northern Dalmatia, in the waters of the Šibenik archipelago.' },
+    dest_body: { sk: 'Budeme sa plaviť v severnej Dalmácii v oblasti Šibenského akvatória.', en: 'We will sail in northern Dalmatia, in the waters of the Šibenik archipelago.' },
     route_label: { sk: 'Trasa plavby', en: 'The route' },
     video_eyebrow: { sk: 'Pozvánka', en: 'Invitation' },
     video_title: { sk: 'Pozvánka na regatu Gentleman Sailing', en: 'Invitation to the Gentleman Sailing regatta' },
